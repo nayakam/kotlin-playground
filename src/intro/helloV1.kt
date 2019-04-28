@@ -2,7 +2,10 @@ package intro
 
 fun main(args: Array<String>) {
     val name = if (args.size > 0) args[0] else "Kotlin"
+
+    var nameVar = if (args.size > 0) args[0] else "Kotlin"
     println("Hello, $name !!!")
+    println("Hello, $nameVar !!!")
     println("Hello, ${args.getOrNull(0)} !!!")
 
     /** https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/get-or-else.html */
