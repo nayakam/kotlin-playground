@@ -1,5 +1,25 @@
 # kotlin-playground
 
+Kotlin is an statically typed programming language. Kotlin combines OO and functional features and is focused on interoperability, safety, clarity, and tooling support. It currently targets the following 
+*   JVM 
+*   Android
+*   JavaScript 
+*   Native. 
+
+### Why or Advantages
+*   Kotlin is 100% interoperable with the Java programming.
+*   More concise. Very less number of lines of code.
+*   More type safe
+    *   Support to non-nullable types (Null-safety)
+    *   Type inference 
+*   Combination of OOP and functional programmings 
+    *   Higher order functions
+    *   Smart casting  
+    *   Data classes
+    *   Default / Named parameters
+    *   Extension functions  
+    
+    
 ### Variables
 
 Local type inference: compiler will infer the types
@@ -27,13 +47,12 @@ Mutable
     *   Top level - Similar to static method
     *   Member function
     *   Local Function    
-
 *   Can provide default values for argument in function
 *   Named arguments - Can use parameter name in function call
     *   By default, there is the direct correspondence between unnamed arguments and parameters according to their order.
     *   In Java overloading used: define different overloads and use nested method call
     *   Have to specify the for all values when call from Java
-    *   @JvmOverloads
+    *   @JvmOverloads : Instructs kotlin compiler to generate overloads
      
        
 
@@ -49,6 +68,7 @@ fun functionMax(a: Int, b:Int) : Int = if(a>b) a else b
 ```
 
 # Reference
+*   [Learn Kotlin](https://kotlinlang.org/docs/reference/)
 *   [Kotlin for Java Developers](https://www.coursera.org/learn/kotlin-for-java-developers/home/welcome)   
 *   [coursera-programming-assignments](https://www.jetbrains.com/help/education/coursera-programming-assignments.html)
 *   [Kotlin](https://stepik.org/course/2852)
