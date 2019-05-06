@@ -67,6 +67,30 @@ or
 fun functionMax(a: Int, b:Int) : Int = if(a>b) a else b
 ```
 
+    
+### Conditionals
+
+*   No ternary operator in Kotlin
+*   switch => when
+    *   No need break statement  
+    *   When used for more than two branches
+
+### Loops
+*  for-loop
+*  while / do-while loop    
+
+### Ranges
+*   in
+    # iteration
+    # check for belonging
+
+
+## Exceptions
+*   No difference between checked and unchecked exceptions 
+*   throw and try are expressions
+*   In Java, you cannot catch a checked exception if it wasn't thrown.Use @throws to indicate to java
+    *   https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-throws/index.html
+
 # Reference
 *   [Learn Kotlin](https://kotlinlang.org/docs/reference/)
 *   [Kotlin for Java Developers](https://www.coursera.org/learn/kotlin-for-java-developers/home/welcome)   
