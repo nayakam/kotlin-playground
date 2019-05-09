@@ -106,3 +106,6 @@ fun functionMax(a: Int, b:Int) : Int = if(a>b) a else b
 *   [Kotlin Tutorial by Derek Banas
 ](https://www.youtube.com/watch?v=H_oGi8uuDpA)
 *   [KotlinConf 2018 - Exploring Coroutines in Kotlin by Venkat Subramariam](https://www.youtube.com/watch?v=jT2gHPQ4Z1Q)
+*   [Kotlin 1.0 Released: Pragmatic Language for JVM and Android](https://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-released-pragmatic-language-for-jvm-and-android/)
+*   [Koans](https://try.kotlinlang.org/#/Kotlin%20Koans/Introduction/Hello,%20world!/Task.kt)
+*   [online mini-IDE: try.kotl.in](https://try.kotlinlang.org/?_ga=2.41237089.2112716907.1557193106-1642946983.1552284951#/Examples/Hello,%20world!/Simplest%20version/Simplest%20version.kt)
