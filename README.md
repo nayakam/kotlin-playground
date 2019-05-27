@@ -6,19 +6,24 @@ Kotlin is an statically typed programming language. Kotlin combines OO and funct
 *   JavaScript 
 *   Native. 
 
+
 ### Why or Advantages
-*   Kotlin is 100% interoperable with the Java programming.
-*   More concise. Very less number of lines of code.
+*   Kotlin is 100% interoperable with the Java programming. Kotlin is completely compatible with Java, developers can incrementally convert their apps.                                                                 
+*   More concise. Very less number of lines of code and easier to manage.
 *   More type safe
     *   Support to non-nullable types (Null-safety)
     *   Type inference 
 *   Combination of OOP and functional programmings 
     *   Higher order functions
-    *   Smart casting  
+    *   Type Safe Code ((No Raw Types)) / Smart casting
+    *   No Checked Exceptions
     *   Data classes
     *   Default / Named parameters
     *   Extension functions  
-    
+    *   Coroutines
+*   Kotlin developed to fix Java's pain points
+*   NPE (Inbuilt Null Safety): It assumes variables can’t be “null” unless a developer explicitly make it that way. This makes Kotlin apps more stable and less likely to crash.
+*   https://hackr.io/blog/kotlin-vs-java
     
 ### Variables
 
@@ -109,3 +114,15 @@ fun functionMax(a: Int, b:Int) : Int = if(a>b) a else b
 *   [Kotlin 1.0 Released: Pragmatic Language for JVM and Android](https://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-released-pragmatic-language-for-jvm-and-android/)
 *   [Koans](https://try.kotlinlang.org/#/Kotlin%20Koans/Introduction/Hello,%20world!/Task.kt)
 *   [online mini-IDE: try.kotl.in](https://try.kotlinlang.org/?_ga=2.41237089.2112716907.1557193106-1642946983.1552284951#/Examples/Hello,%20world!/Simplest%20version/Simplest%20version.kt)
+
+
+## Articles
+*   https://dev.to/martinhaeusler/kotlin---the-good-the-bad-and-the-ugly-3jfo
+*   https://dev.to/ben/the-strengths-and-biggest-misconceptions-of-kotlininterview-with-marcin-moskala
+*   https://dev.to/waterlink/kotlin-how-can-a-programming-language-be-so-young-and-so-mature-at-the-same-time-25j
+*   https://dev.to/dianamaltseva8/why-kotlin-for-android-development-kotlin-benefits-features-versions-24oj
+*   https://kotlinexpertise.com/kotlin-coroutines-guide/
+*   https://engineering.udacity.com/adopting-kotlin-c12f10fd85d1
+*   https://dev.to/ivanosipov/kotlin-dsl-from-theory-to-practice-6h7
+*   https://engineering.udacity.com/learning-kotlin-by-mistake-b99304b7d724
+*   https://dev.to/dev_trent/kotlin---first-impression-5f7a   
