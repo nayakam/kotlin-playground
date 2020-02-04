@@ -6,6 +6,17 @@ Kotlin is an statically typed programming language. Kotlin combines OO and funct
 *   JavaScript 
 *   Native. 
 
+## My favourite Features 
+concise syntax → code that is easier to read and more pleasant to write;
+null-safety → reduces number of unexpected "NullPointerException"s, reduces cognitive load for design-by-contract approach (what exact data type is expected);
+data classes, sealed classes → helps to describe domain models easier and faster;
+named parameters, default parameters, extension functions (and other syntax sugar) → more readable and concise code, ability to write DSL-like or declarative APIs;
+coroutines → comes very handy when you are designing multithreaded system (writing non-blocking code);
+nice tooling support in Intellij IDEA;
+ability to compile code for JVM, JS and native platforms (in beta now);
+and (that's very important as well) great community.
+
+-----
 
 ### Why or Advantages
 *   Kotlin is 100% interoperable with the Java programming. Kotlin is completely compatible with Java, developers can incrementally convert their apps.                                                                 
@@ -111,6 +122,7 @@ fun functionMax(a: Int, b:Int) : Int = if(a>b) a else b
 *   [Kotlin Tutorial by Derek Banas
 ](https://www.youtube.com/watch?v=H_oGi8uuDpA)
 *   [KotlinConf 2018 - Exploring Coroutines in Kotlin by Venkat Subramariam](https://www.youtube.com/watch?v=jT2gHPQ4Z1Q)
+*   [KotlinConf 2018 - Creating Internal DSLs in Kotlin by Venkat Subramaniam](https://www.youtube.com/watch?v=JzTeAM8N1-o&index=49&list=PLQ176FUIyIUbVvFMqDc2jhxS-t562uytr)
 *   [Kotlin 1.0 Released: Pragmatic Language for JVM and Android](https://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-released-pragmatic-language-for-jvm-and-android/)
 *   [Koans](https://try.kotlinlang.org/#/Kotlin%20Koans/Introduction/Hello,%20world!/Task.kt)
 *   [online mini-IDE: try.kotl.in](https://try.kotlinlang.org/?_ga=2.41237089.2112716907.1557193106-1642946983.1552284951#/Examples/Hello,%20world!/Simplest%20version/Simplest%20version.kt)

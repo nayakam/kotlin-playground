@@ -24,3 +24,4 @@ hs_err_pid*
 kotlin-playground.iml
 .idea/
 out/
+hello-world/target/
